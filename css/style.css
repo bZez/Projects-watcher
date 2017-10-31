@@ -21,10 +21,12 @@
   font-size: 60px;
   margin-bottom: 15px;
   font-weight: 300;
+    text-shadow: 0 0 10px rgba(0,0,0,.5);
 }
 .content h2 {
   font-size: 42px;
   font-weight: 100;
+    text-shadow: 0 0 10px black;
 }
 
 .menu-container {
@@ -79,13 +81,14 @@
   padding: 10px;
   text-align: center;
     line-height: 10px;
+    text-shadow: 0 0 10px white;
 }
 .menu ul li a {
   cursor: pointer;
 
 }
  .menu ul li:hover {
-     transform: scale(1.3);
+     transform: scale(2);
  }
 .menu-sliders {
   -webkit-box-flex: 1;
@@ -189,7 +192,10 @@ a {
 body {
     background:url("../img/bgMenu.jpg");
 }
-#h6 {float: right}
+#h6 {
+    float: right;
+    text-shadow: 0 0 10px black;
+}
 
 .button {
     background-color: #b73723;
